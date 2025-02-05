@@ -1,16 +1,58 @@
-# demo1
+# Flutter Authentication App
 
-Login and user creation.
+## 📌 Overview
+This is a simple Flutter app with authentication functionality. It includes three main screens:
+- **Login Screen** 🏠
+- **Register Screen** 📝
+- **Home Screen** 🏡
 
-## Getting Started
+The app allows users to sign up, log in, and navigate to the home screen upon successful authentication.
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- User authentication (Login & Register)
+- Form validation
+- Navigation between screens
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technologies Used
+- Flutter (Dart)
+- Golang (Backend API)
+- MySQL (Database)
+- Provider (for state management, optional)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Screenshots
+(Add screenshots of the Login, Register, and Home screens here)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+```
+/lib
+│── main.dart
+│── screens
+│   ├── login_screen.dart
+│   ├── register_screen.dart
+│   ├── home_screen.dart
+│── repositories
+│   ├── auth_repository.dart
+│── screens
+│   ├── home_screen.dart
+│   ├── login_screen.dart
+│   ├── signup_screen.dart
+```
+### Frontend (Flutter)
+1. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+2. Run the app:
+   ```sh
+   flutter run
+   ```
+
+## 🔑 Authentication Setup
+The backend handles authentication using Golang with MySQL. Ensure your database is properly configured before running the backend server.
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+Feel free to contribute and enhance the app! 🚀
+
